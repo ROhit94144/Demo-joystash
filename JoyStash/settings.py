@@ -35,6 +35,10 @@ else:
 ALLOWED_HOSTS = ['loaclhost', '127.0.0.1','joystash-production.up.railway.app']
 SITE_ID = 1
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://joystash-production.up.railway.app"
+]
+
 # Application definition
 
 INSTALLED_APPS = [
